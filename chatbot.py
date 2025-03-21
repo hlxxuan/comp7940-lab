@@ -56,7 +56,8 @@ def echo(update, context):
 
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Helping you helping you.')
+    help_text = "Here are the commands you can use:\n- /help: Get help on how to use the bot.\n- /add <keyword>: Count how many times a keyword has been used.\n- /hello <name>: Reply with a greeting.\n"
+    update.message.reply_text(help_text)
 
 def add(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /add is issued."""
