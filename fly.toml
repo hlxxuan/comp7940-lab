@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for comp7940-lab-hhhh on 2025-03-21T18:58:33+08:00
+# fly.toml app configuration file generated for comp7940-lab-hh on 2025-03-21T23:57:56+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'comp7940-lab-hhhh'
+app = 'comp7940-lab-hh'
 primary_region = 'nrt'
 
 [build]
